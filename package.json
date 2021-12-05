@@ -1,6 +1,6 @@
 {
   "name": "@typehut/eslint-config-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint import configuration in @typehut",
   "keywords": [
     "eslint",
