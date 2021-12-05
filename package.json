@@ -1,0 +1,43 @@
+{
+  "name": "@typehut/eslint-config-import",
+  "version": "0.1.0",
+  "description": "ESLint import configuration in @typehut",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "import",
+    "imports",
+    "order",
+    "sort",
+    "sorter",
+    "sorting"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:typehut/eslint-config-import.git",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && tape tests/*.test.js"
+  },
+  "dependencies": {
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.4.0",
+    "tape": "^5.3.2",
+    "typescript": "^4.5.2"
+  }
+}
